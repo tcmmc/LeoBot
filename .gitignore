@@ -1,0 +1,25 @@
+# --- محیط و اسرار ---
+.env
+*.env
+!.env.example
+
+# --- پایتون ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- داده و لاگ محلی LeoBot ---
+data/
+logs/
+*.db
+*.db-journal
+*.log
+
+# --- ابزارها و IDE ---
+.vscode/
+.idea/
+.DS_Store
